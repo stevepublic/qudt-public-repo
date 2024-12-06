@@ -21,6 +21,14 @@
   rdfs:label "QUDT VOCAB Physical Constants Release $$QUDT_VERSION$$" ;
   vaem:hasGraphMetadata vaem:GMD_QUDT-CONSTANTS .
 
+constant:AlphaParticleElectronMassRatio
+  a qudt:PhysicalConstant ;
+  qudt:hasQuantityKind quantitykind:DimensionlessRatio ;
+  qudt:informativeReference "http://physics.nist.gov/cuu/Constants/bibliography.html"^^xsd:anyURI ;
+  qudt:quantityValue constant:Value_AlphaParticleElectronMassRatio ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/constant> ;
+  rdfs:label "Alpha particle-electron mass ratio"@en ;
+  skos:closeMatch <http://dbpedia.org/resource/Alpha_particle> .
 
 constant:AlphaParticleMass
   a qudt:PhysicalConstant ;
@@ -29,15 +37,6 @@ constant:AlphaParticleMass
   qudt:quantityValue constant:Value_AlphaParticleMass ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/constant> ;
   rdfs:label "Alpha particle mass"@en ;
-  skos:closeMatch <http://dbpedia.org/resource/Alpha_particle> .
-
-constant:AlphaParticleElectronMassRatio
-  a qudt:PhysicalConstant ;
-  qudt:hasQuantityKind quantitykind:DimensionlessRatio ;
-  qudt:informativeReference "http://physics.nist.gov/cuu/Constants/bibliography.html"^^xsd:anyURI ;
-  qudt:quantityValue constant:Value_AlphaParticleElectronMassRatio ;
-  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/constant> ;
-  rdfs:label "Alpha particle-electron mass ratio"@en ;
   skos:closeMatch <http://dbpedia.org/resource/Alpha_particle> .
 
 constant:AlphaParticleMassEnergyEquivalent
