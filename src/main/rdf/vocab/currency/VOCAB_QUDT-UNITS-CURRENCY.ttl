@@ -20,6 +20,18 @@
   rdfs:label "QUDT VOCAB Currency Units Release $$QUDT_VERSION$$" ;
   vaem:hasGraphMetadata vaem:GMD_QUDT-UNITS-CURRENCY .
 
+cur:AFN
+  a qudt:CurrencyUnit ;
+  qudt:currencyCode "AFN" ;
+  qudt:currencyExponent 2 ;
+  qudt:currencyNumber "971" ;
+  qudt:dbpediaMatch "http://dbpedia.org/resource/Afghani"^^xsd:anyURI ;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T0D1 ;
+  qudt:hasQuantityKind quantitykind:Currency ;
+  qudt:informativeReference "http://en.wikipedia.org/wiki/Afghani?oldid=485904590"^^xsd:anyURI ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/currency> ;
+  rdfs:label "Afghani"@en .
+
 cur:AED
   a qudt:CurrencyUnit ;
   qudt:currencyCode "AED" ;
@@ -33,18 +45,6 @@ cur:AED
   qudt:symbol "د.إ" ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/currency> ;
   rdfs:label "United Arab Emirates dirham"@en .
-
-cur:AFN
-  a qudt:CurrencyUnit ;
-  qudt:currencyCode "AFN" ;
-  qudt:currencyExponent 2 ;
-  qudt:currencyNumber "971" ;
-  qudt:dbpediaMatch "http://dbpedia.org/resource/Afghani"^^xsd:anyURI ;
-  qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T0D1 ;
-  qudt:hasQuantityKind quantitykind:Currency ;
-  qudt:informativeReference "http://en.wikipedia.org/wiki/Afghani?oldid=485904590"^^xsd:anyURI ;
-  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/currency> ;
-  rdfs:label "Afghani"@en .
 
 cur:ALL
   a qudt:CurrencyUnit ;
