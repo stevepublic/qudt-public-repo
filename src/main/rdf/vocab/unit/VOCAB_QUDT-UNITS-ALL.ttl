@@ -191,6 +191,14 @@ unit:A-HR-PER-M3
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
   rdfs:label "ampere hour per cubic metre" .
 
+unit:A-M
+  a qudt:Unit ;
+  qudt:conversionMultiplier 1.0 ;
+  qudt:conversionMultiplierSN 1.0E0 ;
+  qudt:hasDimensionVector qkdv:A0E1L-3I0M0H0T1D0 ;
+  qudt:hasQuantityKind quantitykind:ElectricChargeDensity ;
+  rdfs:label "Ampere Metre" .
+
 unit:A-M2
   a qudt:DerivedUnit, qudt:Unit ;
   dcterms:description "The SI unit of electromagnetic moment."^^rdf:HTML ;
