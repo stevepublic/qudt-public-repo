@@ -41,6 +41,7 @@ unit:AASTRANGE
   a qudt:Unit ;
   qudt:conversionMultiplier 2.0 ;
   qudt:conversionMultiplierSN 2.0E0 ;
+  qudt:scalingOf unit:NUM ;
   qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T0D1 ;
   qudt:hasQuantityKind quantitykind:Count ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
