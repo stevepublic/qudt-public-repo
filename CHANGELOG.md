@@ -19,6 +19,7 @@ and this project is in the process of adopting [Semantic Versioning](https://sem
   - `unit:BasePair` which is implied by `unit:GigaBasePair`
   - `unit:FLOPS` which is implied by e.g `unit:TeraFLOPS`
   - `unit:Ci` (deprecated) which is implied by e.g. now-deprecated `unit:KiloCi`
+  - Test unit
 
 ### Changed
 
