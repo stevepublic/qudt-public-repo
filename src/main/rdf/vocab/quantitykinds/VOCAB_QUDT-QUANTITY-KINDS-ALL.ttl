@@ -24,6 +24,18 @@
   rdfs:label "QUDT Quantity Kind Vocabulary Version $$QUDT_VERSION$$" ;
   vaem:hasGraphMetadata vaem:GMD_QUDT-QUANTITY-KINDS-ALL .
 
+quantitykind:AbsoluteTest
+  a qudt:QuantityKind ;
+  dcterms:description "The test"^^qudt:LatexString ;
+  qudt:hasDimensionVector qkdv:A0E0L-3I0M0H0T0D0 ;
+  qudt:informativeReference "http://goldbook.iupac.org/A00019.html"^^xsd:anyURI ;
+  qudt:isoNormativeReference "http://www.iso.org/iso/catalogue_detail?csnumber=31894"^^xsd:anyURI ;
+  qudt:latexDefinition "$\\lambda_B = e^{\\frac{\\mu_B}{RT}}$, where $\\mu_B$ is the chemical potential of substance $B$, $R$ is the molar gas constant, and $T$ is thermodynamic temperature."^^qudt:LatexString ;
+  qudt:latexSymbol "$\\lambda_C$"^^qudt:LatexString ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/quantitykind> ;
+  rdfs:label "Absolute Test"@en ;
+  skos:broader quantitykind:InverseVolume .
+
 quantitykind:APIGravity
   a qudt:QuantityKind ;
   dcterms:description """The American Petroleum Institute gravity, or API gravity, is a measure of how heavy or light a petroleum liquid is compared to water: if its API gravity is greater than 10, it is lighter and floats on water; if less than 10, it is heavier and sinks.
