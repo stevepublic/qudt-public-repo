@@ -7,8 +7,6 @@ and this project is in the process of adopting [Semantic Versioning](https://sem
 
 ## [Unreleased]
 
-- Test
-
 ### Added
 
 - `unit:NCM` to support the Dutch hydrocarbons sector
@@ -19,6 +17,8 @@ and this project is in the process of adopting [Semantic Versioning](https://sem
 - Explicitly declared all the xsd datatypes to be instances of rdfs:Datatype in the SHACL datatypes schema file
 
 ### Changed
+
+- Test
 
 ### Deprecated
 
