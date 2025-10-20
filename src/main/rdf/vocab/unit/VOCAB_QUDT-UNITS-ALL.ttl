@@ -26,23 +26,6 @@
   rdfs:label "QUDT Vocab Units of Measure Release $$QUDT_VERSION$$" ;
   vaem:hasGraphMetadata vaem:GMD_QUDT-UNITS-ALL .
 
-unit:BLOB
-  a qudt:Unit ;
-  qudt:conversionMultiplier 3600.0 ;
-  qudt:conversionMultiplierSN 3.6E3 ;
-  qudt:hasDimensionVector qkdv:A0E1L0I0M0H0T1D0 ;
-  qudt:hasFactorUnit [
-    qudt:exponent 1 ;
-    qudt:hasUnit unit:A ;
-  ] ;
-  qudt:hasFactorUnit [
-    qudt:exponent 1 ;
-    qudt:hasUnit unit:HR ;
-  ] ;
-  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Blob" ;
-  rdfs:label "Blob"@en .
-  
 unit:2PiRAD
   a qudt:Unit ;
   dcterms:isReplacedBy unit:REV ;
@@ -2464,6 +2447,23 @@ unit:BIT-PER-SEC
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
   rdfs:label "Bit per Second" ;
   rdfs:label "Bit per Second"@en .
+
+unit:BLOB
+  a qudt:Unit ;
+  qudt:conversionMultiplier 3600.0 ;
+  qudt:conversionMultiplierSN 3.6E3 ;
+  qudt:hasDimensionVector qkdv:A0E1L0I0M0H0T1D0 ;
+  qudt:hasFactorUnit [
+    qudt:exponent 1 ;
+    qudt:hasUnit unit:A ;
+  ] ;
+  qudt:hasFactorUnit [
+    qudt:exponent 1 ;
+    qudt:hasUnit unit:HR ;
+  ] ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Blob" ;
+  rdfs:label "Blob"@en .
 
 unit:BQ
   a qudt:DerivedUnit, qudt:Unit ;
