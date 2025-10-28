@@ -58667,6 +58667,7 @@ unit:RAD_R
 
 unit:RANDOM
   a qudt:ContextualUnit, qudt:Unit ;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T0D1 ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
   rdfs:label "Random" .
 
