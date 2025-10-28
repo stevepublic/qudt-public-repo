@@ -58675,7 +58675,7 @@ unit:RANDOM-M-SEC
   qudt:conversionMultiplier 0.0 ;
   qudt:conversionMultiplierSN 0.0E0 ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Random Metre Second".
+  rdfs:label "Random Metre Second" .
 
 unit:RAYL
   a qudt:Unit ;
