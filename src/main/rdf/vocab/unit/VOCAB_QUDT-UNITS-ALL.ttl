@@ -58667,13 +58667,15 @@ unit:RAD_R
 
 unit:RANDOM
   a qudt:ContextualUnit, qudt:Unit ;
-  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> .
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Random" .
 
 unit:RANDOM-M-SEC
   a qudt:Unit ;
   qudt:conversionMultiplier 0.0 ;
   qudt:conversionMultiplierSN 0.0E0 ;
-  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> .
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Random Metre Second".
 
 unit:RAYL
   a qudt:Unit ;
