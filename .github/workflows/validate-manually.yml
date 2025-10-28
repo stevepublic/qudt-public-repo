@@ -28,6 +28,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Ensure output dirs exist
+        run: |
+          mkdir -p target/src-errors target/inferred target/fix target/dist
+
       - name: Checkout
         uses: actions/checkout@v4
         with:
@@ -48,3 +52,5 @@ jobs:
           EXTRA="${{ inputs.extra_args }}"
           echo "Running: mvn -P${PROFILES} ${GOALS} ${EXTRA}"
           mvn -P${PROFILES} ${GOALS} ${EXTRA}
+      - name: Fix pass
+        run: mvn -Pfix install
