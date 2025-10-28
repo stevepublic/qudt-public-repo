@@ -52,5 +52,13 @@ jobs:
           EXTRA="${{ inputs.extra_args }}"
           echo "Running: mvn -P${PROFILES} ${GOALS} ${EXTRA}"
           mvn -P${PROFILES} ${GOALS} ${EXTRA}
+      - name: Upload src-errors (if present)
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: src-errors
+          path: target/src-errors/**
+          if-no-files-found: ignore
       - name: Fix pass
+        if: ${{ failure() }}
         run: mvn -Pfix install
