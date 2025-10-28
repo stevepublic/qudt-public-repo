@@ -26,6 +26,10 @@
   rdfs:label "QUDT Vocab Units of Measure Release $$QUDT_VERSION$$" ;
   vaem:hasGraphMetadata vaem:GMD_QUDT-UNITS-ALL .
 
+unit:RANDOM-M-SEC
+a qudt:Unit ;
+.
+
 unit:2PiRAD
   a qudt:Unit ;
   dcterms:isReplacedBy unit:REV ;
