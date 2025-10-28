@@ -58666,7 +58666,8 @@ unit:RAD_R
   rdfs:label "Rad"@en .
 
 unit:RANDOM-M-SEC
-  a qudt:Unit .
+  a qudt:Unit 
+.
 
 unit:RAYL
   a qudt:Unit ;
