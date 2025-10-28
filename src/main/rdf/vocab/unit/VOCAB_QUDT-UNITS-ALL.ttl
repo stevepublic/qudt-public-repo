@@ -1859,12 +1859,12 @@ unit:BARAD
   qudt:exactMatch unit:BARYE ;
   qudt:hasDimensionVector qkdv:A0E0L-1I0M1H0T-2D0 ;
   qudt:hasFactorUnit [
-    qudt:exponent -2 ;
-    qudt:hasUnit unit:CentiM ;
-  ] ;
-  qudt:hasFactorUnit [
     qudt:exponent 1 ;
     qudt:hasUnit unit:DYN ;
+  ] ;
+  qudt:hasFactorUnit [
+    qudt:exponent -2 ;
+    qudt:hasUnit unit:CentiM ;
   ] ;
   qudt:hasQuantityKind quantitykind:ForcePerArea ;
   qudt:hasQuantityKind quantitykind:VaporPressure ;
@@ -1952,12 +1952,12 @@ unit:BARYE
   qudt:exactMatch unit:BARAD ;
   qudt:hasDimensionVector qkdv:A0E0L-1I0M1H0T-2D0 ;
   qudt:hasFactorUnit [
-    qudt:exponent -2 ;
-    qudt:hasUnit unit:CentiM ;
-  ] ;
-  qudt:hasFactorUnit [
     qudt:exponent 1 ;
     qudt:hasUnit unit:DYN ;
+  ] ;
+  qudt:hasFactorUnit [
+    qudt:exponent -2 ;
+    qudt:hasUnit unit:CentiM ;
   ] ;
   qudt:hasQuantityKind quantitykind:ForcePerArea ;
   qudt:hasQuantityKind quantitykind:VaporPressure ;
@@ -11974,12 +11974,12 @@ unit:DPI
   qudt:conversionMultiplierSN 3.937007874015748031496062992125984E1 ;
   qudt:hasDimensionVector qkdv:A0E0L-1I0M0H0T0D0 ;
   qudt:hasFactorUnit [
-    qudt:exponent 1 ;
-    qudt:hasUnit unit:ONE ;
-  ] ;
-  qudt:hasFactorUnit [
     qudt:exponent -1 ;
     qudt:hasUnit unit:IN ;
+  ] ;
+  qudt:hasFactorUnit [
+    qudt:exponent 1 ;
+    qudt:hasUnit unit:ONE ;
   ] ;
   qudt:hasQuantityKind quantitykind:DotsPerInch ;
   qudt:hasQuantityKind quantitykind:LineicResolution ;
@@ -13418,16 +13418,16 @@ unit:ERG
   qudt:derivedUnitOfSystem sou:CGS-GAUSS ;
   qudt:hasDimensionVector qkdv:A0E0L2I0M1H0T-2D0 ;
   qudt:hasFactorUnit [
-    qudt:exponent 2 ;
-    qudt:hasUnit unit:CentiM ;
+    qudt:exponent 1 ;
+    qudt:hasUnit unit:GM ;
   ] ;
   qudt:hasFactorUnit [
     qudt:exponent -2 ;
     qudt:hasUnit unit:SEC ;
   ] ;
   qudt:hasFactorUnit [
-    qudt:exponent 1 ;
-    qudt:hasUnit unit:GM ;
+    qudt:exponent 2 ;
+    qudt:hasUnit unit:CentiM ;
   ] ;
   qudt:hasQuantityKind quantitykind:Energy ;
   qudt:iec61360Code "0112/2///62720#UAA429" ;
@@ -14247,12 +14247,12 @@ unit:FARAD
   qudt:derivedCoherentUnitOfSystem sou:SI ;
   qudt:hasDimensionVector qkdv:A0E2L-2I0M-1H0T4D0 ;
   qudt:hasFactorUnit [
-    qudt:exponent -1 ;
-    qudt:hasUnit unit:V ;
-  ] ;
-  qudt:hasFactorUnit [
     qudt:exponent 1 ;
     qudt:hasUnit unit:C ;
+  ] ;
+  qudt:hasFactorUnit [
+    qudt:exponent -1 ;
+    qudt:hasUnit unit:V ;
   ] ;
   qudt:hasQuantityKind quantitykind:Capacitance ;
   qudt:iec61360Code "0112/2///62720#UAA144" ;
@@ -15929,12 +15929,12 @@ unit:G
   qudt:factorUnitScalar 9.80665 ;
   qudt:hasDimensionVector qkdv:A0E0L1I0M0H0T-2D0 ;
   qudt:hasFactorUnit [
-    qudt:exponent 1 ;
-    qudt:hasUnit unit:M ;
-  ] ;
-  qudt:hasFactorUnit [
     qudt:exponent -2 ;
     qudt:hasUnit unit:SEC ;
+  ] ;
+  qudt:hasFactorUnit [
+    qudt:exponent 1 ;
+    qudt:hasUnit unit:M ;
   ] ;
   qudt:hasQuantityKind quantitykind:Acceleration ;
   qudt:hasQuantityKind quantitykind:LinearAcceleration ;
@@ -18275,12 +18275,12 @@ unit:GM_Nitrogen-PER-M2-DAY
   qudt:expression "$g N-m^{-2}-day^{-1}$."^^qudt:LatexString ;
   qudt:hasDimensionVector qkdv:A0E0L-2I0M1H0T-1D0 ;
   qudt:hasFactorUnit [
-    qudt:exponent 1 ;
-    qudt:hasUnit unit:GM ;
-  ] ;
-  qudt:hasFactorUnit [
     qudt:exponent -1 ;
     qudt:hasUnit unit:DAY ;
+  ] ;
+  qudt:hasFactorUnit [
+    qudt:exponent 1 ;
+    qudt:hasUnit unit:GM ;
   ] ;
   qudt:hasFactorUnit [
     qudt:exponent -2 ;
@@ -18471,12 +18471,12 @@ unit:GRAY
   qudt:derivedCoherentUnitOfSystem sou:SI ;
   qudt:hasDimensionVector qkdv:A0E0L2I0M0H0T-2D0 ;
   qudt:hasFactorUnit [
-    qudt:exponent 1 ;
-    qudt:hasUnit unit:J ;
-  ] ;
-  qudt:hasFactorUnit [
     qudt:exponent -1 ;
     qudt:hasUnit unit:KiloGM ;
+  ] ;
+  qudt:hasFactorUnit [
+    qudt:exponent 1 ;
+    qudt:hasUnit unit:J ;
   ] ;
   qudt:hasQuantityKind quantitykind:AbsorbedDose ;
   qudt:hasQuantityKind quantitykind:Kerma ;
@@ -22945,12 +22945,12 @@ unit:KAT
   qudt:derivedCoherentUnitOfSystem sou:SI ;
   qudt:hasDimensionVector qkdv:A1E0L0I0M0H0T-1D0 ;
   qudt:hasFactorUnit [
-    qudt:exponent -1 ;
-    qudt:hasUnit unit:SEC ;
-  ] ;
-  qudt:hasFactorUnit [
     qudt:exponent 1 ;
     qudt:hasUnit unit:MOL ;
+  ] ;
+  qudt:hasFactorUnit [
+    qudt:exponent -1 ;
+    qudt:hasUnit unit:SEC ;
   ] ;
   qudt:hasQuantityKind quantitykind:CatalyticActivity ;
   qudt:iec61360Code "0112/2///62720#UAB196" ;
@@ -23108,12 +23108,12 @@ unit:KN
   qudt:exactMatch unit:MI_N-PER-HR ;
   qudt:hasDimensionVector qkdv:A0E0L1I0M0H0T-1D0 ;
   qudt:hasFactorUnit [
-    qudt:exponent -1 ;
-    qudt:hasUnit unit:HR ;
-  ] ;
-  qudt:hasFactorUnit [
     qudt:exponent 1 ;
     qudt:hasUnit unit:MI_N ;
+  ] ;
+  qudt:hasFactorUnit [
+    qudt:exponent -1 ;
+    qudt:hasUnit unit:HR ;
   ] ;
   qudt:hasQuantityKind quantitykind:LinearVelocity ;
   qudt:hasQuantityKind quantitykind:Velocity ;
@@ -29265,12 +29265,12 @@ unit:LA
   qudt:factorUnitScalar 0.31830988618 ;
   qudt:hasDimensionVector qkdv:A0E0L-2I1M0H0T0D0 ;
   qudt:hasFactorUnit [
-    qudt:exponent 1 ;
-    qudt:hasUnit unit:CD ;
-  ] ;
-  qudt:hasFactorUnit [
     qudt:exponent -2 ;
     qudt:hasUnit unit:M ;
+  ] ;
+  qudt:hasFactorUnit [
+    qudt:exponent 1 ;
+    qudt:hasUnit unit:CD ;
   ] ;
   qudt:hasQuantityKind quantitykind:Luminance ;
   qudt:iec61360Code "0112/2///62720#UAB259" ;
@@ -31001,16 +31001,16 @@ unit:LB_F
   qudt:definedUnitOfSystem sou:USCS ;
   qudt:hasDimensionVector qkdv:A0E0L1I0M1H0T-2D0 ;
   qudt:hasFactorUnit [
-    qudt:exponent 1 ;
-    qudt:hasUnit unit:FT ;
+    qudt:exponent -2 ;
+    qudt:hasUnit unit:SEC ;
   ] ;
   qudt:hasFactorUnit [
     qudt:exponent 1 ;
     qudt:hasUnit unit:SLUG ;
   ] ;
   qudt:hasFactorUnit [
-    qudt:exponent -2 ;
-    qudt:hasUnit unit:SEC ;
+    qudt:exponent 1 ;
+    qudt:hasUnit unit:FT ;
   ] ;
   qudt:hasQuantityKind quantitykind:Force ;
   qudt:iec61360Code "0112/2///62720#UAA696" ;
@@ -31347,11 +31347,11 @@ unit:LM
   qudt:hasDimensionVector qkdv:A0E0L0I1M0H0T0D0 ;
   qudt:hasFactorUnit [
     qudt:exponent 1 ;
-    qudt:hasUnit unit:CD ;
+    qudt:hasUnit unit:SR ;
   ] ;
   qudt:hasFactorUnit [
     qudt:exponent 1 ;
-    qudt:hasUnit unit:SR ;
+    qudt:hasUnit unit:CD ;
   ] ;
   qudt:hasQuantityKind quantitykind:LuminousFlux ;
   qudt:iec61360Code "0112/2///62720#UAA718" ;
@@ -46045,16 +46045,16 @@ unit:N
   qudt:exactMatch unit:KiloGM-M-PER-SEC2 ;
   qudt:hasDimensionVector qkdv:A0E0L1I0M1H0T-2D0 ;
   qudt:hasFactorUnit [
+    qudt:exponent 1 ;
+    qudt:hasUnit unit:M ;
+  ] ;
+  qudt:hasFactorUnit [
     qudt:exponent -2 ;
     qudt:hasUnit unit:SEC ;
   ] ;
   qudt:hasFactorUnit [
     qudt:exponent 1 ;
     qudt:hasUnit unit:KiloGM ;
-  ] ;
-  qudt:hasFactorUnit [
-    qudt:exponent 1 ;
-    qudt:hasUnit unit:M ;
   ] ;
   qudt:hasQuantityKind quantitykind:Force ;
   qudt:iec61360Code "0112/2///62720#UAA235" ;
@@ -49571,12 +49571,12 @@ unit:OHM
   qudt:dbpediaMatch "http://dbpedia.org/resource/Ohm"^^xsd:anyURI ;
   qudt:hasDimensionVector qkdv:A0E-2L2I0M1H0T-3D0 ;
   qudt:hasFactorUnit [
-    qudt:exponent -1 ;
-    qudt:hasUnit unit:A ;
-  ] ;
-  qudt:hasFactorUnit [
     qudt:exponent 1 ;
     qudt:hasUnit unit:V ;
+  ] ;
+  qudt:hasFactorUnit [
+    qudt:exponent -1 ;
+    qudt:hasUnit unit:A ;
   ] ;
   qudt:hasQuantityKind quantitykind:Impedance ;
   qudt:hasQuantityKind quantitykind:ModulusOfImpedance ;
@@ -58317,12 +58317,12 @@ unit:R
   qudt:factorUnitScalar 0.000258 ;
   qudt:hasDimensionVector qkdv:A0E1L0I0M-1H0T1D0 ;
   qudt:hasFactorUnit [
-    qudt:exponent 1 ;
-    qudt:hasUnit unit:C ;
-  ] ;
-  qudt:hasFactorUnit [
     qudt:exponent -1 ;
     qudt:hasUnit unit:KiloGM ;
+  ] ;
+  qudt:hasFactorUnit [
+    qudt:exponent 1 ;
+    qudt:hasUnit unit:C ;
   ] ;
   qudt:hasQuantityKind quantitykind:ElectricChargePerMass ;
   qudt:iec61360Code "0112/2///62720#UAA275" ;
@@ -58667,16 +58667,22 @@ unit:RAD_R
 
 unit:RANDOM
   a qudt:ContextualUnit, qudt:Unit ;
-  qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T0D1 ;
-  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Random" .
-
-unit:RANDOM-M-SEC
-  a qudt:Unit ;
   qudt:conversionMultiplier 0.0 ;
   qudt:conversionMultiplierSN 0.0E0 ;
+  qudt:hasDimensionVector qkdv:A0E0L0I0M0H0T0D1 ;
   rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
-  rdfs:label "Random Metre Second" .
+  rdfs:label "Random" ;
+  rdfs:label "Random"@en .
+
+unit:RANDOM-M-SEC
+  a qudt:ContextualUnit, qudt:Unit ;
+  qudt:conversionMultiplier 0.0 ;
+  qudt:conversionMultiplierSN 0.0E0 ;
+  qudt:hasDimensionVector qkdv:A0E0L1I0M0H0T1D0 ;
+  rdfs:isDefinedBy <http://qudt.org/$$QUDT_VERSION$$/vocab/unit> ;
+  rdfs:label "Random Meter Second"@en-US ;
+  rdfs:label "Random Metre Second" ;
+  rdfs:label "Random Metre Second"@en .
 
 unit:RAYL
   a qudt:Unit ;
@@ -60138,12 +60144,12 @@ unit:SV
   qudt:derivedUnitOfSystem sou:SI ;
   qudt:hasDimensionVector qkdv:A0E0L2I0M0H0T-2D0 ;
   qudt:hasFactorUnit [
-    qudt:exponent -1 ;
-    qudt:hasUnit unit:KiloGM ;
-  ] ;
-  qudt:hasFactorUnit [
     qudt:exponent 1 ;
     qudt:hasUnit unit:J ;
+  ] ;
+  qudt:hasFactorUnit [
+    qudt:exponent -1 ;
+    qudt:hasUnit unit:KiloGM ;
   ] ;
   qudt:hasQuantityKind quantitykind:DoseEquivalent ;
   qudt:hasReciprocalUnit unit:KiloGM-PER-J ;
@@ -60368,12 +60374,12 @@ unit:T
   qudt:derivedCoherentUnitOfSystem sou:SI ;
   qudt:hasDimensionVector qkdv:A0E-1L0I0M1H0T-2D0 ;
   qudt:hasFactorUnit [
-    qudt:exponent -2 ;
-    qudt:hasUnit unit:M ;
-  ] ;
-  qudt:hasFactorUnit [
     qudt:exponent 1 ;
     qudt:hasUnit unit:WB ;
+  ] ;
+  qudt:hasFactorUnit [
+    qudt:exponent -2 ;
+    qudt:hasUnit unit:M ;
   ] ;
   qudt:hasQuantityKind quantitykind:MagneticField ;
   qudt:hasQuantityKind quantitykind:MagneticFluxDensity ;
@@ -63414,12 +63420,12 @@ unit:VAR
   qudt:conversionMultiplierSN 1.0E0 ;
   qudt:hasDimensionVector qkdv:A0E0L2I0M1H0T-3D0 ;
   qudt:hasFactorUnit [
-    qudt:exponent -1 ;
-    qudt:hasUnit unit:SEC ;
-  ] ;
-  qudt:hasFactorUnit [
     qudt:exponent 1 ;
     qudt:hasUnit unit:J ;
+  ] ;
+  qudt:hasFactorUnit [
+    qudt:exponent -1 ;
+    qudt:hasUnit unit:SEC ;
   ] ;
   qudt:hasQuantityKind quantitykind:ReactivePower ;
   qudt:iec61360Code "0112/2///62720#UAB023" ;
