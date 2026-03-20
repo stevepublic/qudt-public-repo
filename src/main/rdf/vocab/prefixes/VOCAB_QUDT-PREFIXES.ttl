@@ -18,7 +18,7 @@
 
 prefix:Atto
   a qudt:DecimalPrefix, qudt:Prefix ;
-  dcterms:description "\"atto\" is a decimal prefix for expressing a value with a scaling of \\(10^{-18}\\)."^^qudt:LatexString ;
+  dcterms:description "\"atto\" is a decimal prefix for expressing the value with a scaling of \\(10^{-18}\\)."^^qudt:LatexString ;
   qudt:dbpediaMatch "http://dbpedia.org/resource/Atto"^^xsd:anyURI ;
   qudt:informativeReference "http://en.wikipedia.org/wiki/Atto?oldid=412748080"^^xsd:anyURI ;
   qudt:prefixMultiplier 0.000000000000000001 ;
