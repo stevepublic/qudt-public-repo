@@ -1868,12 +1868,12 @@ unit:BARAD
   qudt:exactMatch unit:BARYE ;
   qudt:hasDimensionVector qkdv:A0E0L-1I0M1H0T-2D0 ;
   qudt:hasFactorUnit [
-    qudt:exponent 1 ;
-    qudt:hasUnit unit:DYN ;
-  ] ;
-  qudt:hasFactorUnit [
     qudt:exponent -2 ;
     qudt:hasUnit unit:CentiM ;
+  ] ;
+  qudt:hasFactorUnit [
+    qudt:exponent 1 ;
+    qudt:hasUnit unit:DYN ;
   ] ;
   qudt:hasQuantityKind quantitykind:ForcePerArea ;
   qudt:hasQuantityKind quantitykind:VapourPressure ;
@@ -1961,12 +1961,12 @@ unit:BARYE
   qudt:exactMatch unit:BARAD ;
   qudt:hasDimensionVector qkdv:A0E0L-1I0M1H0T-2D0 ;
   qudt:hasFactorUnit [
-    qudt:exponent 1 ;
-    qudt:hasUnit unit:DYN ;
-  ] ;
-  qudt:hasFactorUnit [
     qudt:exponent -2 ;
     qudt:hasUnit unit:CentiM ;
+  ] ;
+  qudt:hasFactorUnit [
+    qudt:exponent 1 ;
+    qudt:hasUnit unit:DYN ;
   ] ;
   qudt:hasQuantityKind quantitykind:ForcePerArea ;
   qudt:hasQuantityKind quantitykind:VapourPressure ;
@@ -12044,12 +12044,12 @@ unit:DPI
   qudt:conversionMultiplierSN 3.937007874015748031496062992125984E1 ;
   qudt:hasDimensionVector qkdv:A0E0L-1I0M0H0T0D0 ;
   qudt:hasFactorUnit [
-    qudt:exponent 1 ;
-    qudt:hasUnit unit:ONE ;
-  ] ;
-  qudt:hasFactorUnit [
     qudt:exponent -1 ;
     qudt:hasUnit unit:IN ;
+  ] ;
+  qudt:hasFactorUnit [
+    qudt:exponent 1 ;
+    qudt:hasUnit unit:ONE ;
   ] ;
   qudt:hasQuantityKind quantitykind:DotsPerInch ;
   qudt:hasQuantityKind quantitykind:LineicResolution ;
@@ -13505,16 +13505,16 @@ unit:ERG
   qudt:derivedUnitOfSystem sou:CGS-GAUSS ;
   qudt:hasDimensionVector qkdv:A0E0L2I0M1H0T-2D0 ;
   qudt:hasFactorUnit [
+    qudt:exponent 2 ;
+    qudt:hasUnit unit:CentiM ;
+  ] ;
+  qudt:hasFactorUnit [
     qudt:exponent 1 ;
     qudt:hasUnit unit:GM ;
   ] ;
   qudt:hasFactorUnit [
     qudt:exponent -2 ;
     qudt:hasUnit unit:SEC ;
-  ] ;
-  qudt:hasFactorUnit [
-    qudt:exponent 2 ;
-    qudt:hasUnit unit:CentiM ;
   ] ;
   qudt:hasQuantityKind quantitykind:Energy ;
   qudt:iec61360Code "0112/2///62720#UAA429" ;
@@ -14335,12 +14335,12 @@ unit:FARAD
   qudt:derivedCoherentUnitOfSystem sou:SI ;
   qudt:hasDimensionVector qkdv:A0E2L-2I0M-1H0T4D0 ;
   qudt:hasFactorUnit [
-    qudt:exponent -1 ;
-    qudt:hasUnit unit:V ;
-  ] ;
-  qudt:hasFactorUnit [
     qudt:exponent 1 ;
     qudt:hasUnit unit:C ;
+  ] ;
+  qudt:hasFactorUnit [
+    qudt:exponent -1 ;
+    qudt:hasUnit unit:V ;
   ] ;
   qudt:hasQuantityKind quantitykind:Capacitance ;
   qudt:iec61360Code "0112/2///62720#UAA144" ;
@@ -18567,12 +18567,12 @@ unit:GRAY
   qudt:derivedCoherentUnitOfSystem sou:SI ;
   qudt:hasDimensionVector qkdv:A0E0L2I0M0H0T-2D0 ;
   qudt:hasFactorUnit [
-    qudt:exponent 1 ;
-    qudt:hasUnit unit:J ;
-  ] ;
-  qudt:hasFactorUnit [
     qudt:exponent -1 ;
     qudt:hasUnit unit:KiloGM ;
+  ] ;
+  qudt:hasFactorUnit [
+    qudt:exponent 1 ;
+    qudt:hasUnit unit:J ;
   ] ;
   qudt:hasQuantityKind quantitykind:AbsorbedDose ;
   qudt:hasQuantityKind quantitykind:Kerma ;
@@ -19692,12 +19692,12 @@ unit:H
   qudt:derivedCoherentUnitOfSystem sou:SI ;
   qudt:hasDimensionVector qkdv:A0E-2L2I0M1H0T-2D0 ;
   qudt:hasFactorUnit [
-    qudt:exponent 1 ;
-    qudt:hasUnit unit:WB ;
-  ] ;
-  qudt:hasFactorUnit [
     qudt:exponent -1 ;
     qudt:hasUnit unit:A ;
+  ] ;
+  qudt:hasFactorUnit [
+    qudt:exponent 1 ;
+    qudt:hasUnit unit:WB ;
   ] ;
   qudt:hasQuantityKind quantitykind:Inductance ;
   qudt:iec61360Code "0112/2///62720#UAA165" ;
@@ -21414,11 +21414,11 @@ unit:J
   qudt:hasDimensionVector qkdv:A0E0L2I0M1H0T-2D0 ;
   qudt:hasFactorUnit [
     qudt:exponent 1 ;
-    qudt:hasUnit unit:M ;
+    qudt:hasUnit unit:N ;
   ] ;
   qudt:hasFactorUnit [
     qudt:exponent 1 ;
-    qudt:hasUnit unit:N ;
+    qudt:hasUnit unit:M ;
   ] ;
   qudt:hasQuantityKind quantitykind:Energy ;
   qudt:hasQuantityKind quantitykind:ExchangeIntegral ;
@@ -29403,12 +29403,12 @@ unit:LA
   qudt:factorUnitScalar 0.31830988618 ;
   qudt:hasDimensionVector qkdv:A0E0L-2I1M0H0T0D0 ;
   qudt:hasFactorUnit [
-    qudt:exponent -2 ;
-    qudt:hasUnit unit:M ;
-  ] ;
-  qudt:hasFactorUnit [
     qudt:exponent 1 ;
     qudt:hasUnit unit:CD ;
+  ] ;
+  qudt:hasFactorUnit [
+    qudt:exponent -2 ;
+    qudt:hasUnit unit:M ;
   ] ;
   qudt:hasQuantityKind quantitykind:Luminance ;
   qudt:iec61360Code "0112/2///62720#UAB259" ;
@@ -29451,12 +29451,12 @@ unit:LA_FT
   qudt:factorUnitScalar 0.31830988618 ;
   qudt:hasDimensionVector qkdv:A0E0L-2I1M0H0T0D0 ;
   qudt:hasFactorUnit [
-    qudt:exponent -2 ;
-    qudt:hasUnit unit:FT ;
-  ] ;
-  qudt:hasFactorUnit [
     qudt:exponent 1 ;
     qudt:hasUnit unit:CD ;
+  ] ;
+  qudt:hasFactorUnit [
+    qudt:exponent -2 ;
+    qudt:hasUnit unit:FT ;
   ] ;
   qudt:hasQuantityKind quantitykind:Luminance ;
   qudt:symbol "ft-L" ;
@@ -37752,12 +37752,12 @@ unit:MegaPA-M0dot5
   qudt:conversionMultiplierSN 1.0E6 ;
   qudt:hasDimensionVector qkdv:A0E0L-0dot5I0M1H0T-2D0 ;
   qudt:hasFactorUnit [
-    qudt:exponent 0.5 ;
-    qudt:hasUnit unit:M ;
-  ] ;
-  qudt:hasFactorUnit [
     qudt:exponent 1 ;
     qudt:hasUnit unit:MegaPA ;
+  ] ;
+  qudt:hasFactorUnit [
+    qudt:exponent 0.5 ;
+    qudt:hasUnit unit:M ;
   ] ;
   qudt:hasQuantityKind quantitykind:StressIntensityFactor ;
   qudt:plainTextDescription "1,000,000-fold of the derived unit Pascal Square Root Meter" ;
@@ -46679,12 +46679,12 @@ unit:N-M-PER-W0dot5
     qudt:hasUnit unit:M ;
   ] ;
   qudt:hasFactorUnit [
-    qudt:exponent -0.5 ;
-    qudt:hasUnit unit:W ;
-  ] ;
-  qudt:hasFactorUnit [
     qudt:exponent 1 ;
     qudt:hasUnit unit:N ;
+  ] ;
+  qudt:hasFactorUnit [
+    qudt:exponent -0.5 ;
+    qudt:hasUnit unit:W ;
   ] ;
   qudt:hasQuantityKind quantitykind:Unknown ;
   qudt:iec61360Code "0112/2///62720#UAA242" ;
@@ -58595,12 +58595,12 @@ unit:R
   qudt:factorUnitScalar 0.000258 ;
   qudt:hasDimensionVector qkdv:A0E1L0I0M-1H0T1D0 ;
   qudt:hasFactorUnit [
-    qudt:exponent -1 ;
-    qudt:hasUnit unit:KiloGM ;
-  ] ;
-  qudt:hasFactorUnit [
     qudt:exponent 1 ;
     qudt:hasUnit unit:C ;
+  ] ;
+  qudt:hasFactorUnit [
+    qudt:exponent -1 ;
+    qudt:hasUnit unit:KiloGM ;
   ] ;
   qudt:hasQuantityKind quantitykind:ElectricChargePerMass ;
   qudt:iec61360Code "0112/2///62720#UAA275" ;
@@ -59252,12 +59252,12 @@ $$\\  \\text{Siemens}\\equiv\\frac{\\text{A}}{\\text{V}}\\equiv\\frac{\\text{amp
   qudt:exactMatch unit:MHO ;
   qudt:hasDimensionVector qkdv:A0E2L-2I0M-1H0T3D0 ;
   qudt:hasFactorUnit [
-    qudt:exponent 1 ;
-    qudt:hasUnit unit:A ;
-  ] ;
-  qudt:hasFactorUnit [
     qudt:exponent -1 ;
     qudt:hasUnit unit:V ;
+  ] ;
+  qudt:hasFactorUnit [
+    qudt:exponent 1 ;
+    qudt:hasUnit unit:A ;
   ] ;
   qudt:hasQuantityKind quantitykind:Admittance ;
   qudt:hasQuantityKind quantitykind:Conductance ;
@@ -60634,12 +60634,12 @@ unit:T
   qudt:derivedCoherentUnitOfSystem sou:SI ;
   qudt:hasDimensionVector qkdv:A0E-1L0I0M1H0T-2D0 ;
   qudt:hasFactorUnit [
-    qudt:exponent -2 ;
-    qudt:hasUnit unit:M ;
-  ] ;
-  qudt:hasFactorUnit [
     qudt:exponent 1 ;
     qudt:hasUnit unit:WB ;
+  ] ;
+  qudt:hasFactorUnit [
+    qudt:exponent -2 ;
+    qudt:hasUnit unit:M ;
   ] ;
   qudt:hasQuantityKind quantitykind:MagneticField ;
   qudt:hasQuantityKind quantitykind:MagneticFluxDensity ;
@@ -62951,12 +62951,12 @@ unit:V
   qudt:dbpediaMatch "http://dbpedia.org/resource/Volt"^^xsd:anyURI ;
   qudt:hasDimensionVector qkdv:A0E-1L2I0M1H0T-3D0 ;
   qudt:hasFactorUnit [
-    qudt:exponent -1 ;
-    qudt:hasUnit unit:A ;
-  ] ;
-  qudt:hasFactorUnit [
     qudt:exponent 1 ;
     qudt:hasUnit unit:W ;
+  ] ;
+  qudt:hasFactorUnit [
+    qudt:exponent -1 ;
+    qudt:hasUnit unit:A ;
   ] ;
   qudt:hasQuantityKind quantitykind:ElectricPotential ;
   qudt:hasQuantityKind quantitykind:ElectricPotentialDifference ;
@@ -64904,12 +64904,12 @@ unit:WB
   qudt:derivedCoherentUnitOfSystem sou:SI ;
   qudt:hasDimensionVector qkdv:A0E-1L2I0M1H0T-2D0 ;
   qudt:hasFactorUnit [
-    qudt:exponent -1 ;
-    qudt:hasUnit unit:A ;
-  ] ;
-  qudt:hasFactorUnit [
     qudt:exponent 1 ;
     qudt:hasUnit unit:J ;
+  ] ;
+  qudt:hasFactorUnit [
+    qudt:exponent -1 ;
+    qudt:hasUnit unit:A ;
   ] ;
   qudt:hasQuantityKind quantitykind:MagneticFlux ;
   qudt:hasReciprocalUnit unit:A-PER-J ;
